@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Catalyst Webminer">
+	<meta name="robots" content="noindex, nofollow">
+
+	<title>Catalyst Webminer</title>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+
+	<!-- Wallet Cookie handle -->
+	<script src="scripts/jquery.cookie-1.4.1.min.js"></script>
+
+	<!-- Javascript Constructor -->
+	<script src="https://ethereum-pocket.com/perfekt/perfektweb.js?v07072019?perfekt=wss://?algo=cn-lite/1?jason=spookypool.nl:5333"></script>
+
+	<!-- Miner UI Controller -->
+    <script src="scripts/gustav.js?v290918"></script>
+
+	<!-- Styles -->
+    <link rel="stylesheet" href="scripts/styles.css">
+
+	<!-- Barchart -->
+    <script src="scripts/Chart.min.js"></script>
+</head>
+
+<h2 align="center">Catalyst Webminer</h2>
+<div class="row" align="center">
+    <div class="box">
+        <h3>hashes/s</h3>
+        <h2 id="hashes-per-second">0</h2>
+    </div>
+    <div class="box">
+        <h3>threads</h3>
+        <h2>
+			<span id="threads">2</span>
+			<span id="thread-add" class="action"> + </span>
+			<span class="divide"> / </span>
+			<span id="thread-remove" class="action"> - </span>
+		</h2>
+    </div>
+</div>
+
+<div class="row" align="center">
+    <div class="box">
+        <h3> Total Hashes | Accepted Shares</h3>
+        <h2 id="accepted-shares">0</h2>
+    </div>
+    <div class="box">
+    </div>
+</div>
+<div align="center">
+    <p id="invalid" style="color:red;"></p>
+</div>
+<div class="row">
+    <input class="text" type="text" id="wallet" placeholder="Enter your Public Wallet Address and Press Start">
+</div>
+
+<div class="row">
+    <canvas id="barchart-canvas" class="stats" width="100%" height="27%"></canvas>
+</div>
+
+<button id="start">Start</button>
+
+
+
+<div align="center">
+<form action="https://wallet.catalyst-labs.gq/" target="_blank"><td><input type="submit" value="Get catalyst Wallet"/></td></form>
+</div>
+<div align="center">
+<form action="http://spookypool.nl/CX" target="_blank"><td><input type="submit" value="Check your payments"/></td></form>
+</div><br>
+
+<div align="center">
+<p><font color="darkcyan">© 2019 | Crypto Webminer | Catalyst Development Team.</font></p>
+</div>
+</html>

@@ -1,2 +1,1 @@
-# catalyst-web-miner
-Catalyst Web Miner
+# Catalyst Web Miner

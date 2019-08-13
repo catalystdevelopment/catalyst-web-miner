@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "miner",
+  "alias": [
+    "miner.catalyst-labs.gq"
+  ],
+  "builds": [
+    {
+      "src": "**",
+      "use": "@now/static"
+    }
+  ]
+}
